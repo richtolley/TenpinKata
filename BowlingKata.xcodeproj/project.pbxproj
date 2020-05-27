@@ -14,6 +14,9 @@
 		21A5DBD32465873E007BDB2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21A5DBD22465873E007BDB2D /* Assets.xcassets */; };
 		21A5DBD62465873E007BDB2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21A5DBD42465873E007BDB2D /* LaunchScreen.storyboard */; };
 		21A5DBE12465873F007BDB2D /* BowlingKataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A5DBE02465873F007BDB2D /* BowlingKataTests.swift */; };
+		21A5DBED246588C0007BDB2D /* BowlingKataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A5DBEC246588C0007BDB2D /* BowlingKataHelper.swift */; };
+		21A5DBEF24658903007BDB2D /* BowlingScoreHelperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A5DBEE24658903007BDB2D /* BowlingScoreHelperTests.swift */; };
+		21A5DBF324658E04007BDB2D /* BowlingKataInstructions.png in Resources */ = {isa = PBXBuildFile; fileRef = 21A5DBF224658E04007BDB2D /* BowlingKataInstructions.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +41,9 @@
 		21A5DBDC2465873F007BDB2D /* BowlingKataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BowlingKataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		21A5DBE02465873F007BDB2D /* BowlingKataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BowlingKataTests.swift; sourceTree = "<group>"; };
 		21A5DBE22465873F007BDB2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21A5DBEC246588C0007BDB2D /* BowlingKataHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BowlingKataHelper.swift; sourceTree = "<group>"; };
+		21A5DBEE24658903007BDB2D /* BowlingScoreHelperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BowlingScoreHelperTests.swift; sourceTree = "<group>"; };
+		21A5DBF224658E04007BDB2D /* BowlingKataInstructions.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BowlingKataInstructions.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +85,8 @@
 		21A5DBC82465873C007BDB2D /* BowlingKata */ = {
 			isa = PBXGroup;
 			children = (
+				21A5DBF224658E04007BDB2D /* BowlingKataInstructions.png */,
+				21A5DBEB246588B1007BDB2D /* Model */,
 				21A5DBC92465873C007BDB2D /* AppDelegate.swift */,
 				21A5DBCB2465873C007BDB2D /* SceneDelegate.swift */,
 				21A5DBCD2465873C007BDB2D /* ViewController.swift */,
@@ -95,8 +103,17 @@
 			children = (
 				21A5DBE02465873F007BDB2D /* BowlingKataTests.swift */,
 				21A5DBE22465873F007BDB2D /* Info.plist */,
+				21A5DBEE24658903007BDB2D /* BowlingScoreHelperTests.swift */,
 			);
 			path = BowlingKataTests;
+			sourceTree = "<group>";
+		};
+		21A5DBEB246588B1007BDB2D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				21A5DBEC246588C0007BDB2D /* BowlingKataHelper.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -182,6 +199,7 @@
 			files = (
 				21A5DBD62465873E007BDB2D /* LaunchScreen.storyboard in Resources */,
 				21A5DBD32465873E007BDB2D /* Assets.xcassets in Resources */,
+				21A5DBF324658E04007BDB2D /* BowlingKataInstructions.png in Resources */,
 				21A5DBD12465873C007BDB2D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -201,6 +219,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				21A5DBCE2465873C007BDB2D /* ViewController.swift in Sources */,
+				21A5DBED246588C0007BDB2D /* BowlingKataHelper.swift in Sources */,
 				21A5DBCA2465873C007BDB2D /* AppDelegate.swift in Sources */,
 				21A5DBCC2465873C007BDB2D /* SceneDelegate.swift in Sources */,
 			);
@@ -211,6 +230,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				21A5DBE12465873F007BDB2D /* BowlingKataTests.swift in Sources */,
+				21A5DBEF24658903007BDB2D /* BowlingScoreHelperTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
